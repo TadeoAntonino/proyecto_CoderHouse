@@ -143,7 +143,7 @@ font-family: 'Water Brush', cursive;
     justify-content: center;
     align-items: center;
     flex-direction: column;
- 
+    transition: transform 0.5s;
 }
     
 .card-index img{
@@ -154,7 +154,9 @@ font-family: 'Water Brush', cursive;
     border-top-right-radius: 10px;
 }
 
-
+.card-index:hover {
+    transform: scale(1.1,1.1);
+}
     
 .card-index img:hover {
     filter: none;
@@ -202,7 +204,7 @@ font-family: 'Water Brush', cursive;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   
+    transition: transform 0.5s;
 }
     
 .card-serv-obras img{
@@ -213,6 +215,9 @@ font-family: 'Water Brush', cursive;
     border-top-right-radius: 10px;
 }
 
+.card-serv-obras:hover {
+    transform: scale(1.1,1.1);
+}
     
 .card-serv-obras img:hover {
     filter: none;
@@ -312,10 +317,12 @@ font-family: 'Water Brush', cursive;
     color: #242424;
     text-decoration: none;
     background-color: #f3f3f3;
-  
+    transition: transform 0.5s;
 }
 
-
+.datos:hover {
+    transform: scale(1.1,1.1);
+}
 
 .consulta {
     text-align: center;
@@ -332,10 +339,12 @@ font-family: 'Water Brush', cursive;
     color: #242424;
     text-decoration: none;
     background-color: #f3f3f3;
-    
+    transition: transform 0.5s;
 }
 
-
+.consulta:hover {
+    transform: scale(1.1,1.1);
+}
 
 .boton {
     text-align: center;
@@ -352,10 +361,12 @@ font-family: 'Water Brush', cursive;
     color: #242424;
     text-decoration: none;
     background-color: #f3f3f3;
- 
+    transition: transform 0.5s;
 }
 
-
+.boton:hover {
+    transform: scale(1.1,1.1);
+}
 
 .section-contacto {
     grid-area: section;
