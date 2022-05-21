@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600&family=Montserrat:wght@100;200;400&family=Nanum+Gothic:wght@400;700&family=Water+Brush&display=swap');
+/*
+font-family: 'Cairo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Water Brush', cursive;
+*/
+
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 4vh;
+    background-color: #8a8a8ad9;
+}
+.header div img{
+    height: 4vh;
+    padding-left: 2vh;
+}
+.header div h1{
+    padding-left: 1vh;
+    padding-right: 25vh;
+    padding-top: 1vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    justify-content: center;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+.header nav{
+    padding-top: 1vh;
+    padding-left: 83vh;
+    padding-right: 0vh;
+}
+
+.header nav a{
+    padding: 1vh;
+    width: 45%;
+    height: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+.header nav a:hover{
+    filter: invert(0.6);
+}
+footer{
+    width: 100%;
+    height: 3vh;
+    background-color: #242424;
+    color: #cdcdcd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    text-align: center;
+    padding-top: 0.3%;
+}
+/* Estilos index */
+
+.main{
+    width: 100%;
+    height: 93vh;
+    background-image:url("../multimedia/imagen24.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Estilos obras y servicios */
+.main__obras {
+    width: 100%;
+    height: 93vh;
+    background-image: url("../multimedia/imagen3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+.galeria__obras{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+.card{
+    width: 42vh;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card img{
+    width: 100%;
+    height: 95%;
+    filter: grayscale(1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card img:hover {
+    filter: none;
+}
+.card h4{
+    background-color: #242424;
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Estilos servicios (solo para el background del main) */
+.main__servicios {
+    width: 100%;
+    height: 93vh;
+    background-image: url("../multimedia/imagen19.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+/* Estilos nosotros */
+.main__nos {
+    width: 100%;
+    height: 93vh;
+    padding: 3vh;
+    background-color: #fffbec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    color: #242424;
+    text-decoration: none;
+}
+.main__nos div{
+    margin-top: 5vh;
+  padding: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+.main__nos div img{
+    width: 90vh;
+    height: 65vh;
+    border-radius: 10px;
+}
+/* Estilos contacto */
+
+.main__contacto {
+        width: 100%;
+        height: 93vh;
+        background-color: #fffbec;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        gap: 2vh;
+}
+.contacto__divuno {
+    width: 50%;
+    height: 100%;
+    background-image: url(../multimedia/imagen7.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #f3f3f3;
+    text-decoration: none;
+    gap: 3vh;
+}
+.div__interno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 3vh;
+}
+.datos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40vh;
+    height: 3vh;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #242424;
+    text-decoration: none;
+    background-color: #f3f3f3;
+}
+.consulta {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vh;
+    height: 30vh;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #242424;
+    text-decoration: none;
+    background-color: #f3f3f3;
+}
+.boton {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10vh;
+    height: 4vh;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #242424;
+    text-decoration: none;
+    background-color: #f3f3f3;
+}
+.contacto__divdos {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #242424;
+    text-decoration: none;
+    gap: 3vh;
+}
+.mapa {
+    border-radius: 10px;
+}
