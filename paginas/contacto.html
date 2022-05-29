@@ -5,70 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudio de Arquitectura | CODER</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilos/estilos3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="shortcut icon" href="../multimedia/logo.png">
 </head>
-<body class="grid-contacto">
-    <header class="header">
-       
-        <div>
-            <h1 class="header-titulo"> Estudio de Arquitectura | CODER </h1>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../multimedia/logo.png" alt="Logo"><h1>Estudio de Arquitectura | CODER</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/obras.html">Trabajos Realizados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.html">"><img class="header-logo" src="../multimedia/logo.png" alt="logo"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../paginas/obras.html">Nuestros Trabajos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../paginas/servicios.html">Servicios</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../paginas/nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../paginas/contacto.html">Contacto</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+      </nav>    
+  </header>
+  <main>
+    <form>
+      <fieldset disabled>
+        <legend>Contactanos</legend>
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label"></label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre">
         </div>
-    </header>
-    <main class="main-contacto">
-        <h2>Contactenos</h2>
-        <form action="" method="post" enctype="multipart/form-data">
-                <div class="div-form">
-                    <input class="datos" type="text" placeholder="Nombre" class="datos">
-                    <input class="datos" type="text" placeholder="Apellido" class="datos">
-                    <input class="datos" type="email" placeholder="Correo" class="datos">
-                    <input class="datos" type="tel" placeholder="Número de teléfono" class="datos">
-                    <input class="consulta" type="text" placeholder="Escriba su consulta" class="consulta">
-                    <input class="boton" type="submit" class="boton">    
-                </div>
-        </form>
-    </main>
-    <section class="section-contacto">
-        <h2>También puede visitarnos en nuestros estudios</h2>
-        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d715.7196230907057!2d-64.18421288792693!3d-31.42637142707312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1651631583244!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-    <footer class="footer">
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label"></label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Apellido">
+        </div>
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label"></label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Correo">
+        </div>
+        <div class="mb-3">
+          <label for="disabledTextInput" class="form-label"></label>
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Consulta">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </fieldset>
+    </form>      
+  </main>
+  <footer>
         <p>
             Sitio desarrollado por Tadeo Antonino para el proyecto final del curso de desarrollo web de CoderHouse.
         </p>
-    </footer>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
