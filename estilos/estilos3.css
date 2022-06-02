@@ -112,6 +112,11 @@ font-family: 'Water Brush', cursive;
     background-size: cover;
 }
 
+.carrousel {
+    height: 53vh;
+    width: 100%;
+}
+
 .section-index {
     grid-area: section;
     width: 100%;
